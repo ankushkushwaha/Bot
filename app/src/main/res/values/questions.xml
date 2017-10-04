@@ -1,0 +1,22 @@
+<resources>
+
+
+    <array name="questions">
+        <item>first1first1first1first1first1first1first1first1first1first1first1first1first1first1first1first1</item>
+        <item>second1</item>
+        <item>third</item>
+        <item>fourth</item>
+        <item>fifth</item>
+    </array>
+
+
+    <array name="answers">
+        <item>first1first1first1first1first1first1first1first1first1first1first1first1first1first1first1first1first1first1first1first1first1first1first1first1first1first1first1first1first1first1first1first1first1first1first1first1first1first1first1first1first1first1first1first1first1first1first1first1first1first1first1first1first1first1first1first1first1first1first1first1first1first1first1first1first1first1first1first1first1first1first1first1first1first1first1first1first1first1first1first1first1first1first1first1first1first1first1first1first1first1first1first1first1first1first1first1first1first1first1first1first1first1first1first1first1first1first1first1first1first1first1first1first1first1first1first1first1first1first1first1first1first1first1first1first1first1first1first1first1first1first1first1first1first1first1first1first1first1first1first1first1first1first1first1first1first1first1first1first1first1first1first1first1first1first1first1first1first1first1first1first1first1first1first1first1first1first1first1first1first1first1first1first1first1first1first1first1first1first1first1first1first1first1first1first1first1first1first1first1first1first1first1first1first1first1first1first1first1first1first1first1first1first1first1first1first1first1first1first1first1first1first1first1first1first1first1first1first1first1first1first1first1first1first1first1first1first1first1first1first1first1first1first1first1first1first1first1first1first1first1first1first1first1first1first1first1first1first1first1first1first1first1first1first1first1first1first1first1first1first1first1first1first1first1first1first1first1first1first1first1first1first1first1first1first1first1first1first1first1first1first1first1first1first1first1first1first1first1</item>
+        <item>second1</item>
+        <item>third</item>
+        <item>fourth</item>
+        <item>fifth</item>
+    </array>
+
+</resources>
+

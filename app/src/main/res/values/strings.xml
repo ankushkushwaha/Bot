@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Bot</string>
+    <string name="simpleQuestions">Simple Questions</string>
+    <string name="toughQuestions">Tough Questions</string>
+    <string name="seeOtherApps">See Other Apps</string>
+    <string name="rateApp">Rate Apps</string>
+    <string name="xx">xx</string>
+    <string name="yy">yy</string>
+    <string name="title_activity_maps">Map</string>
+
+    <string name="location_permission_not_given">Please provide the permissions to access location.</string>
+    <string name="marker_no_information">No information available</string>
+</resources>

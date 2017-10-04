@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <include layout="@layout/red_button"/>
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="layout-normal-land"
+        android:textAlignment="center"
+        android:textSize="18sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/textView6"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginTop="50dp"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/simpleQuestionsButton"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/textView6"
+            android:layout_margin="5dp"
+            android:layout_marginLeft="0dp"
+            android:layout_weight="1"
+            android:text="@string/simpleQuestions"
+            android:textColor="@android:color/background_light" />
+
+        <Button
+            android:id="@+id/seeOtherAppsButton"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/toughQuestionsButton"
+            android:layout_margin="5dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:layout_weight="1"
+            android:text="@string/seeOtherApps"
+            android:textColor="@android:color/background_light" />
+
+        <Button
+            android:id="@+id/toughQuestionsButton"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/simpleQuestionsButton"
+            android:layout_margin="5dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:layout_weight="1"
+            android:onClick="showMap"
+            android:text="@string/toughQuestions"
+            android:textColor="@android:color/background_light" />
+
+        <Button
+            android:id="@+id/rateAppButton"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_alignLeft="@+id/seeOtherAppsButton"
+            android:layout_alignParentBottom="true"
+            android:layout_alignStart="@+id/seeOtherAppsButton"
+            android:layout_margin="5dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:layout_weight="1"
+            android:text="@string/rateApp"
+            android:textColor="@android:color/background_light" />
+    </LinearLayout>
+
+</RelativeLayout>

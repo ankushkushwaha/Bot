@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="layout-small"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/simpleQuestionButton"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="@string/simpleQuestions"
+        android:textColor="@android:color/background_light"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/toughQuestionButton"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/simpleQuestionButton"
+        android:layout_alignStart="@+id/simpleQuestionButton"
+        android:layout_below="@+id/simpleQuestionButton"
+        android:layout_marginTop="50dp"
+        android:onClick="showMap"
+        android:text="@string/toughQuestions"
+        android:textColor="@android:color/background_light" />
+
+    <Button
+        android:id="@+id/seeOtherAppsButton"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/toughQuestionButton"
+        android:layout_alignStart="@+id/toughQuestionButton"
+        android:layout_below="@+id/toughQuestionButton"
+        android:layout_marginTop="50dp"
+        android:text="@string/seeOtherApps"
+        android:textColor="@android:color/background_light" />
+
+    <Button
+        android:id="@+id/rateAppButton"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/seeOtherAppsButton"
+        android:layout_alignStart="@+id/seeOtherAppsButton"
+        android:layout_below="@+id/seeOtherAppsButton"
+        android:layout_marginTop="50dp"
+        android:text="@string/rateApp"
+        android:textColor="@android:color/background_light" />
+
+
+
+
+</RelativeLayout>
