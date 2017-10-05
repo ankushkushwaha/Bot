@@ -10,4 +10,10 @@
 
     <string name="location_permission_not_given">Please provide the permissions to access location.</string>
     <string name="marker_no_information">No information available</string>
+
+    <array name="items">
+    <item>Google Map</item>
+    <item>Questions</item>
+    </array>
+
 </resources>
